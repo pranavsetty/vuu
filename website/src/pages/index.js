@@ -20,9 +20,9 @@ function Home() {
     <Layout title={`${siteConfig.title}`} description={`${siteConfig.tagline}`}>
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <h1>Delivering risk data </h1>
-          <h2>from trading systems, to human eyes</h2>
-          <p className="p-homepage">
+          <h1 className="h-feature-1">Delivering risk data </h1>
+          <h2 className="h-feature-1">from trading systems, to human eyes</h2>
+          <p className="p-feature">
             Vuu deals with the complex task of viewporting, throttling <br />{" "}
             and transmiting your data to clients, so you don't have to.
           </p>
@@ -53,7 +53,10 @@ function Home() {
                 alt="demo-app"
                 style={{ height: "50px" }}
               />
-              <h1 style={{ textAlign: "center" }}> Why VUU</h1>
+              <h1 style={{ textAlign: "center" }} className="title-homepage">
+                {" "}
+                Why VUU
+              </h1>
 
               <div className="row">
                 {features.map((props, idx) => (
@@ -73,7 +76,10 @@ function Home() {
               alt="demo-app"
               style={{ height: "40px", marginTop: "40px" }}
             />
-            <h1 style={{ textAlign: "center" }}> Demo App</h1>
+            <h1 style={{ textAlign: "center" }} className="title-homepage">
+              {" "}
+              Demo App
+            </h1>
             <img
               src={DemoApp}
               className="home-page-images"

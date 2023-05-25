@@ -31,9 +31,12 @@ const Script = () => {
         )}
         <h2 className="feature-3-heading">View Porting</h2>
         <p
-          className={`p-homepage ${
-            expandedColumn !== 0 && expandedColumn !== null ? "hidden" : ""
-          }`}
+          className={
+            (`p-homepage ${
+              expandedColumn !== 0 && expandedColumn !== null ? "hidden" : ""
+            }`,
+            "p-feature")
+          }
         >
           A Viewport is a specific client's view onto an underlying table. It
           has knowledge of the underlying table that a viewport is looking.
@@ -55,9 +58,12 @@ const Script = () => {
         )}
         <h2 className="feature-3-heading">Conflation</h2>
         <p
-          className={`p-homepage ${
-            expandedColumn !== 1 && expandedColumn !== null ? "hidden" : ""
-          }`}
+          className={
+            (`p-homepage ${
+              expandedColumn !== 1 && expandedColumn !== null ? "hidden" : ""
+            }`,
+            "p-feature")
+          }
         >
           A Viewport is a specific client's view onto an underlying table. It
           has knowledge of the underlying table that a viewport is looking.
@@ -79,9 +85,12 @@ const Script = () => {
         )}
         <h2 className="feature-3-heading">Joining and Treeing</h2>
         <p
-          className={`p-homepage ${
-            expandedColumn !== 2 && expandedColumn !== null ? "hidden" : ""
-          }`}
+          className={
+            (`p-homepage ${
+              expandedColumn !== 2 && expandedColumn !== null ? "hidden" : ""
+            }`,
+            "p-feature")
+          }
         >
           A Viewport is a specific client's view onto an underlying table. It
           has knowledge of the underlying table that a viewport is looking.

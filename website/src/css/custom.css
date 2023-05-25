@@ -73,14 +73,14 @@
 }
 
 h1 {
-  color: #ffffff;
+  color: black;
   font-weight: 200;
   font-size: 4em;
   margin-top: 35px;
 }
 
 h2 {
-  color: #ffffff;
+  color: black;
   font-weight: 300;
   font-size: 2em;
 }
@@ -168,7 +168,17 @@ body {
   border: 1px solid red;
 } */
 
-.p-homepage {
+.p-feature {
+  color: white;
+}
+
+/* Feature1  */
+
+.h-feature-1 {
+  color: white;
+}
+
+.title-homepage {
   color: white;
 }
 
